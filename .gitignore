@@ -1,0 +1,11 @@
+# Dataset (downloaded automatically by the code)
+data/
+
+# Only keep best checkpoints + ONNX
+checkpoints/last_*.pt
+
+# Python / Jupyter / pytest caches
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/

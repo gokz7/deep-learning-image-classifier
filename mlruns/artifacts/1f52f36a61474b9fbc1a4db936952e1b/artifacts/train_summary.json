@@ -1,0 +1,9 @@
+{
+  "model": "baseline",
+  "trainable_params": 1148874,
+  "epochs": 30,
+  "best_val_acc": 0.9236,
+  "best_epoch": 29,
+  "total_train_time_sec": 514.0,
+  "avg_epoch_time_sec": 17.1
+}

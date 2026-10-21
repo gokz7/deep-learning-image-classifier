@@ -1,0 +1,50 @@
+{
+  "model": "deep_plain",
+  "trainable_params": 2735946,
+  "epochs": 30,
+  "best_val_acc": 0.9376,
+  "best_epoch": 30,
+  "total_train_time_sec": 623.0,
+  "avg_epoch_time_sec": 20.8,
+  "checkpoint_epoch": 30,
+  "test_acc": 0.9300000071525574,
+  "per_class_test_acc": {
+    "airplane": 0.95,
+    "automobile": 0.967,
+    "bird": 0.889,
+    "cat": 0.843,
+    "deer": 0.947,
+    "dog": 0.901,
+    "frog": 0.94,
+    "horse": 0.948,
+    "ship": 0.963,
+    "truck": 0.952
+  },
+  "top_confusions": [
+    {
+      "true": "cat",
+      "pred": "dog",
+      "count": 79
+    },
+    {
+      "true": "dog",
+      "pred": "cat",
+      "count": 59
+    },
+    {
+      "true": "bird",
+      "pred": "cat",
+      "count": 32
+    },
+    {
+      "true": "automobile",
+      "pred": "truck",
+      "count": 24
+    },
+    {
+      "true": "truck",
+      "pred": "automobile",
+      "count": 23
+    }
+  ]
+}

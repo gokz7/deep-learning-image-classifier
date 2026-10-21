@@ -1,0 +1,12 @@
+{
+  "model": "deep_residual",
+  "onnx_file": "checkpoints/deep_residual.onnx",
+  "onnx_size_mb": 11.11,
+  "export_method": "torchscript exporter",
+  "images_compared": 1024,
+  "max_abs_logit_diff": 5.7220458984375e-06,
+  "prediction_agreement": 1.0,
+  "pytorch_acc_on_subset": 0.935546875,
+  "onnx_acc_on_subset": 0.935546875,
+  "onnx_cpu_ms_per_image": 8.38
+}

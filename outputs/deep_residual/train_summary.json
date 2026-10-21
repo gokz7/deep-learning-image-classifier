@@ -1,0 +1,9 @@
+{
+  "model": "deep_residual",
+  "trainable_params": 2777674,
+  "epochs": 30,
+  "best_val_acc": 0.9388,
+  "best_epoch": 28,
+  "total_train_time_sec": 624.8,
+  "avg_epoch_time_sec": 20.8
+}

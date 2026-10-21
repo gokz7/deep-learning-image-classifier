@@ -1,0 +1,9 @@
+{
+  "model": "deep_plain",
+  "trainable_params": 2735946,
+  "epochs": 30,
+  "best_val_acc": 0.9376,
+  "best_epoch": 30,
+  "total_train_time_sec": 623.0,
+  "avg_epoch_time_sec": 20.8
+}

@@ -1,0 +1,50 @@
+{
+  "model": "residual",
+  "trainable_params": 1227594,
+  "epochs": 30,
+  "best_val_acc": 0.9212,
+  "best_epoch": 30,
+  "total_train_time_sec": 548.9,
+  "avg_epoch_time_sec": 18.3,
+  "checkpoint_epoch": 30,
+  "test_acc": 0.9106000065803528,
+  "per_class_test_acc": {
+    "airplane": 0.935,
+    "automobile": 0.959,
+    "bird": 0.872,
+    "cat": 0.816,
+    "deer": 0.92,
+    "dog": 0.85,
+    "frog": 0.924,
+    "horse": 0.93,
+    "ship": 0.949,
+    "truck": 0.951
+  },
+  "top_confusions": [
+    {
+      "true": "cat",
+      "pred": "dog",
+      "count": 90
+    },
+    {
+      "true": "dog",
+      "pred": "cat",
+      "count": 82
+    },
+    {
+      "true": "frog",
+      "pred": "bird",
+      "count": 29
+    },
+    {
+      "true": "automobile",
+      "pred": "truck",
+      "count": 28
+    },
+    {
+      "true": "truck",
+      "pred": "automobile",
+      "count": 27
+    }
+  ]
+}
